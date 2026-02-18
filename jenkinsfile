@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull code from your GitHub repo
-                git branch: 'main', url: 'https://github.com/mareddyrajitha24/jenkins-terraform.git'
+                git branch: 'main', url: 'https://github.com/saivivardhiniboggarapu/jenkins-terraform.git'
             }
         }
 
